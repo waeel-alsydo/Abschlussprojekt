@@ -1,0 +1,126 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+/* -----end Import and Font----- */
+/* -----start Design----- */
+body{
+    font-family: 'Karla', sans-serif;
+}
+/* -----star header----- */
+header{
+    height: 18%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 10%;
+    position: relative;
+}
+header > a{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+header > a:hover{
+    color: #848484;
+}
+/* -----------start Mobile------------ */
+.menu {
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+#menu-link ul{
+    list-style: none;
+}
+.menu a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 94%;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* -----------end Mobile------------ */
+
+.menu-2 ul{
+    list-style: none;
+    display: flex;
+}
+.menu-2 ul li{
+    margin: auto 20px;
+    margin-right: 0;
+}
+.menu-2 ul li a:hover{
+    color: #848484;
+}
+/* -----end header----- */
+/* -----start main----- */
+main{
+    margin: 0 10%;
+}
+/* -----start first content----- */
+.first-items img{
+    width: 100%;
+    height: 72vh;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+/* -----end first content----- */
+/* -----start second content----- */
+.first-container{
+    display: flex;
+}
+.scond-items img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.scond-content{
+    margin: 10px;
+}
+/* -----end second content----- */
+/* -----start overflow image----- */
+img:hover{
+    overflow: hidden;
+    opacity: .2;
+}
+/* -----end overflow image----- */
+/* -----end main----- */
+/* -----start footer----- */
+footer{
+    height: 35vh;
+    margin: auto 10%;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, 30% 15% 30%);
+    color: #000;
+}
+.about ul{
+    list-style-type: none;
+}
+footer div{
+    margin-top: 45px;
+    text-transform: capitalize;
+}
+.about h3{
+    margin-bottom: 50px;
+}
+.about a:hover{
+    color: #848484;
+}
+/* -----end footer----- */
+/* -----end Design----- */
+

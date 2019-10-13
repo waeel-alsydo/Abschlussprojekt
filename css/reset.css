@@ -1,0 +1,29 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+}
+.message{
+    display: none;
+    font-size: 2em;
+    color: #ff0;
+}
+p, i{
+    color: #848484;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+h4, b{
+    color: #323A45;
+}
+strong{
+    color: #000;
+    font-size: 18px;
+}
